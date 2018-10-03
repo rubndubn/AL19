@@ -1,0 +1,3 @@
+"Verweise" => LiveCharts.Wpf Installieren
+In xaml Datei gehen => im Menü Toolbox "Elemente auswählen" => Auf den runtergeladenen LiveCharts Ordner gehen
+			=> LiveChartsmaster/WpfView/bin/Debug und beide dlls auswählen => den Fehler bestätigen
