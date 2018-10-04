@@ -22,6 +22,7 @@ namespace WpfAppErsterTest
     {
         public MainWindow()
         {
+            // Test-comment
             InitializeComponent();
         }
     }
