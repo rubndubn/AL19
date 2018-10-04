@@ -20,7 +20,6 @@ namespace WpfAppErsterTest
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Amin test branch
         public MainWindow()
         {
             InitializeComponent();
