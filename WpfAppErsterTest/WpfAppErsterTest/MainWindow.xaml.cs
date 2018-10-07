@@ -23,6 +23,18 @@ namespace WpfAppErsterTest
         public MainWindow()
         {
             InitializeComponent();
+            InitializeComboBox();
+        }
+
+        public void InitializeComboBox()
+        {
+            List<string> names = new List<string> { "Hans", "Peter", "Sepp", "Dieter" };
+            comboBox.ItemsSource = names;
+        }
+
+        public void ShowSelectedComboBoxItemInLabel(object sender, RoutedEventArgs e)
+        {
+            label.Content = comboBox.SelectedItem;
         }
     }
 }
