@@ -35,6 +35,7 @@ namespace WpfAppErsterTest
         public void ShowSelectedComboBoxItemInLabel(object sender, RoutedEventArgs e)
         {
             label.Content = comboBox.SelectedItem;
+                      //Amine ist da
         }
     }
 }
